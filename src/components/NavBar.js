@@ -8,7 +8,7 @@ function NavBar({ themeToggler, theme }) {
             <span className='title-icon' >
                 <span>
                     <h1>Memories</h1>
-                    <p>With Love</p>
+                    <p>With Love!</p>
                 </span>
                 <div >
                     {theme === 'light' && <img src="/birds.png" alt="image" style={{ height: '3rem' }} />}
