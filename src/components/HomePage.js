@@ -41,7 +41,9 @@ function HomePage() {
   `;
     return (
         <div className='showcase' >
-            <video playsinline muted loop autoPlay src="memoriesVideo.mp4" ></video>
+            {/* <video playsinline muted loop autoPlay src="memoriesVideo.mp4" ></video>
+             */}
+            <img src="gridPic.jpg" alt="" />
             <div className='overlay' ></div>
             <div className='text' >
                 <h2>Die with Memories ,Not dreams</h2>
