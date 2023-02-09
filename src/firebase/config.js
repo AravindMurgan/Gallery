@@ -14,6 +14,7 @@ const firebaseConfig = {
 console.log('FIREBASE:::', firebase);
 
 // Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
 
 const projectStorage = firebase.storage();
